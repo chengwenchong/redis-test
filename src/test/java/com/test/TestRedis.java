@@ -17,7 +17,7 @@ public class TestRedis {
 	@Before
 	public void setJedis(){
 		jedis=new Jedis("192.168.1.154");
-		
+		jedis.auth("chengwenchong");
 		System.out.println("连接服务成功");
 	}
 	
@@ -134,7 +134,7 @@ public class TestRedis {
         System.out.println(jedis.lrange("number",0,jedis.llen("number")));
         System.out.println("排序:"+jedis.sort("number"));
         System.out.println(jedis.lrange("number",0,-1));//不改变原来的排序
-        jedis.del("number");//测试完删除数据
+        //jedis.del("number");//测试完删除数据
     }
 
 
