@@ -16,7 +16,7 @@ public class TestRedis {
 	
 	@Before
 	public void setJedis(){
-		jedis=new Jedis("192.168.1.154");
+		jedis=new Jedis("192.168.1.105");
 		jedis.auth("chengwenchong");
 		System.out.println("连接服务成功");
 	}

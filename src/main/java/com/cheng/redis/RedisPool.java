@@ -6,7 +6,7 @@ import redis.clients.jedis.JedisPoolConfig;
 
 public final class RedisPool {
 	//Redis服务器IP
-    private static String ADDR = "192.168.1.154";
+    private static String ADDR = "192.168.1.105";
     //Redis的端口号
     private static Integer PORT = 6379;
     //访问密码

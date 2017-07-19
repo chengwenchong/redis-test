@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <properties>
-  		<redis.version>2.6.0</redis.version>
+  		<redis.version>2.9.0</redis.version>
   		<junit.version>4.11</junit.version>
   </properties>
   
